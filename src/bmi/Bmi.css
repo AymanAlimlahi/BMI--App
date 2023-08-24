@@ -1,0 +1,114 @@
+.container{
+    margin-top: 10px;
+    width: 30%;
+    height: 50%;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 36%;
+}
+/* BMICalculator.css */
+
+.bmi-calculator {
+    max-width: 400px;
+    margin: 0 ;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 16px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .bmi-calculator h2 {
+    text-align: center;
+    color: #3F3D56;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 11px;
+  }
+  
+  .input-group label {
+    font-size: 18px;
+    color: #3F3D56;
+    margin-right: 8px;
+  }
+  
+  .input-group input {
+    flex: 1;
+    height: 30px;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .calculate-btn,
+  .reload-btn {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #3F3D56;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .calculate-btn:hover,
+  .reload-btn:hover {
+    background-color: #555;
+  }
+  
+  .bmi-result {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 18px;
+    color: #210df5;
+  }
+  /* Responsive Styles */
+@media screen and (max-width: 1005px) {
+    .bmi-calculator {
+      width: 200px;
+      margin-right: 33%;
+      right: 800px;
+    }
+    .container{
+        margin-top: 30%;
+        right: 800px;
+    }
+    #d{
+        padding-right: 82%;
+    }
+    .bmi-calculator h2 {
+      font-size: 20px;
+    }
+  
+    .input-group label {
+      font-size: 16px;
+    }
+  
+    .input-group input {
+      height: 20px;
+      font-size: 14px;
+      width: 20px;
+    }
+  
+    .calculate-btn,
+    .reload-btn {
+      font-size: 16px;
+      padding: 8px;
+    }
+  
+    .bmi-result {
+      font-size: 14px;
+    }
+  }
+  
